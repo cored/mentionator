@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'omniauth' 
 gem 'omniauth-redbooth'
+gem 'faraday'
+gem 'faraday_middleware'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   gem 'byebug'
@@ -25,6 +28,8 @@ end
 group :test do 
   gem 'capybara' 
   gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 
