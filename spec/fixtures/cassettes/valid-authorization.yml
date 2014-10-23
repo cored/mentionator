@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://redbooth.com/api/3/me?access_token=89b6aa954099798ab112e4cc6038694707277b16a75e3483e862271ad0d33459
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Authorization:
+      - Token token="89b6aa954099798ab112e4cc6038694707277b16a75e3483e862271ad0d33459"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 20 Oct 2014 03:50:56 GMT
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - dc42e3ba1ec1c3d472df712111a111f9
+      X-Runtime:
+      - '0.013506'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '532'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"type":"User","created_at":1412597838,"updated_at":1413762860,"id":988055,"first_name":"Rafael","last_name":"George","email":"george.rafael@gmail.com","needs_profile":false,"deleted":false,"bouncing_email":false,"confirmed_user":true,"username":"george28","avatar_url":"https://secure.gravatar.com/avatar/87f83a47ce04e7661ec3c9dfc33b35bc?size=48&default=mm","profile_avatar_url":"https://secure.gravatar.com/avatar/87f83a47ce04e7661ec3c9dfc33b35bc?size=278&default=mm","micro_avatar_url":"https://secure.gravatar.com/avatar/87f83a47ce04e7661ec3c9dfc33b35bc?size=24&default=mm","first_day_of_week":"sunday","biography":null,"locale":"en","time_zone":"Eastern
+        Time (US & Canada)","default_digest":4,"notify_conversations":true,"notify_tasks":true,"notify_pages":true,"default_watch_new_task":false,"default_watch_new_conversation":false,"default_watch_new_page":false,"digest_delivery_hour":9,"wants_task_reminder":true,"rss_token":null,"calendar_token":null,"shortcut_apps":null,"project_activity_digest":"no_digest","chat_token":"a5f2829c3a30e3f9a6f203cf6a81572f","chat_muted_until":0,"is_pro":true}'
+    http_version: 
+  recorded_at: Mon, 20 Oct 2014 03:44:31 GMT
+recorded_with: VCR 2.9.3

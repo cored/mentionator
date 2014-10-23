@@ -7,6 +7,8 @@ module Redbooth
   end
 
   class Client
+
+    attr_reader :id, :secret, :token, :refresh_token, :http_client
     def initialize(id, secret, token, refresh_token)
       @id = id
       @secret = secret
@@ -37,8 +39,6 @@ module Redbooth
         faraday.adapter Faraday.default_adapter
       end
     end
-
-    attr_reader :id, :secret, :token, :refresh_token, :http_client
   end
 end
 

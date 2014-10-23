@@ -1,0 +1,331 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://redbooth.com/me?access_token=2df31d2ce2234b8ea25f8bba4c3d67551a2d02288b7d091c10c1deb04d8a79ad
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Authorization:
+      - Token token="2df31d2ce2234b8ea25f8bba4c3d67551a2d02288b7d091c10c1deb04d8a79ad"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - no-cache, must-revalidate, max-age=0
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Wed, 15 Oct 2014 15:47:24 GMT
+      Expires:
+      - Wed, 11 Jan 1984 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - nginx
+      Set-Cookie:
+      - PHPSESSID=n1kq8lf2hp2ojb6bi0md9jdss0; path=/
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      X-Pingback:
+      - https://redbooth.com/xmlrpc.php
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<!doctype html>\n<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+        -->\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\" prefix=\"og:
+        http://ogp.me/ns#\" > <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js
+        ie7 oldie\" lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\" > <![endif]-->\n<!--[if
+        IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\"
+        \"> <![endif]-->\n<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline
+        -->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\" prefix=\"og:
+        http://ogp.me/ns#\"> <!--<![endif]-->\n<head>\n  <meta charset=\"UTF-8\">\n\n
+        \ <title>Page not found | RedboothRedbooth</title>\n\n  <!-- Mobile viewport
+        optimized: j.mp/bplateviewport -->\n  <meta name=\"viewport\" content=\"width=device-width\">\n
+        \ <meta name='st-rb' content='rb-wp-2014get$1209u63'>\n\n  <!-- Favicon and
+        Feed -->\n  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/favicon.ico\">\n
+        \ <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Redbooth Feed\"
+        href=\"https://redbooth.com/feed/\">\n\n  <!--  iPhone Web App Home Screen
+        Icon -->\n  <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-icon-ipad.png\">\n
+        \ <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-icon-retina.png\">\n
+        \ <link rel=\"apple-touch-icon\" href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-icon.png\">\n\n
+        \ <!-- Enable Startup Image for iOS Home Screen Web App -->\n  <meta name=\"apple-mobile-web-app-capable\"
+        content=\"yes\">\n  <link rel=\"apple-touch-startup-image\" href=\"https://redbooth.com/wp-content//themes/reverie-master/mobile-load.png\">\n\n
+        \ <!-- Startup Image iPad Landscape (748x1024) -->\n  <link rel=\"apple-touch-startup-image\"
+        href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-load-ipad-landscape.png\"
+        media=\"screen and (min-device-width: 481px) and (max-device-width: 1024px)
+        and (orientation:landscape)\">\n  <!-- Startup Image iPad Portrait (768x1004)
+        -->\n  <link rel=\"apple-touch-startup-image\" href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-load-ipad-portrait.png\"
+        media=\"screen and (min-device-width: 481px) and (max-device-width: 1024px)
+        and (orientation:portrait)\">\n  <!-- Startup Image iPhone (320x460) -->\n
+        \ <link rel=\"apple-touch-startup-image\" href=\"https://redbooth.com/wp-content//themes/reverie-master/img/devices/reverie-load.png\"
+        media=\"screen and (max-device-width: 320px)\">\n\n  <script type=\"text/javascript\"
+        src=\"https://cdn.optimizely.com/js/8039275.js\"></script>\n<!-- This site
+        is optimized with the Yoast WordPress SEO plugin v1.5.3.3 - https://yoast.com/wordpress/plugins/seo/
+        -->\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\"
+        content=\"object\" />\n<meta property=\"og:title\" content=\"Page not found
+        - Redbooth\" />\n<meta property=\"og:site_name\" content=\"Redbooth\" />\n<!--
+        / Yoast WordPress SEO plugin. -->\n\n<link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"Redbooth &raquo; Feed\" href=\"https://redbooth.com/feed\" />\n<link
+        rel=\"alternate\" type=\"application/rss+xml\" title=\"Redbooth &raquo; Comments
+        Feed\" href=\"https://redbooth.com/comments/feed\" />\n\n            <script
+        type=\"text/javascript\">//<![CDATA[\n            // Google Analytics for
+        WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/\n
+        \           var _gaq = _gaq || [];\n            _gaq.push(['_setAccount',
+        'UA-9427125-1']);\n\t\t\t\t            _gaq.push(['_trackPageview','/404.html?page='
+        + document.location.pathname + document.location.search + '&from=' + document.referrer]);\n
+        \           (function () {\n                var ga = document.createElement('script');\n
+        \               ga.type = 'text/javascript';\n                ga.async = true;\n
+        \               ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n\n                var s
+        = document.getElementsByTagName('script')[0];\n                s.parentNode.insertBefore(ga,
+        s);\n            })();\n            //]]></script>\n\t\t\t<link rel='stylesheet'
+        id='reverie-foundation-stylesheet-css'  href='https://redbooth.com/wp-content//themes/redbooth-com-wp/css/app.css'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='reverie-stylesheet-css'
+        \ href='https://redbooth.com/wp-content//themes/redbooth-com-wp/css/style.css'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='social-icons-widget-widget-css'
+        \ href='https://redbooth.com/wp-content/plugins/social-media-icons-widget/css/social_icons_widget.css'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='google-font-css'
+        \ href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CLora%3A400%2C700%7CDroid+Sans+Mono'
+        type='text/css' media='all' />\n<!--[if lt IE 9]>\n<link rel='stylesheet'
+        id='reverie-ie-only-css'  href='https://redbooth.com/wp-content//themes/reverie-master/css/ie.css'
+        type='text/css' media='all' />\n<![endif]-->\n<link rel='stylesheet' id='hubspot-css'
+        \ href='https://redbooth.com/wp-content/plugins/hubspot/css/hubspot.css' type='text/css'
+        media='all' />\n<script type='text/javascript' src='https://redbooth.com/wp-includes/js/jquery/jquery.js'></script>\n<script
+        type='text/javascript' src='https://redbooth.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>\n<script
+        type='text/javascript' src='https://redbooth.com/wp-content//themes/reverie-master/js/modernizr.js'></script>\n\n<script
+        type=\"text/javascript\">\n  var _kmq = _kmq || [];\n  function _kms(u){\n
+        \   setTimeout(function(){\n      var s = document.createElement('script');
+        var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript';
+        s.async = true;\n      s.src = u; f.parentNode.insertBefore(s, f);\n    },
+        1);\n  }\n  _kms('//i.kissmetrics.com/i.js');_kms('//doug1izaerwt3.cloudfront.net/979f1a0b3869ec07e8aae103fa18460d7e15a29c.1.js');\n</script>\n\n\n<!--
+        Google Webmaster Tools plugin for WordPress -->\n<meta name=\"google-site-verification\"
+        content=\"wWjLTA3uD9O7EaQEKx4L6XaG0vBCzrW3m6TxPOMjwnw\" />\n<style type=\"text/css\">.broken_link,
+        a.broken_link {\r\n\ttext-decoration: line-through;\r\n}</style>\n  <link
+        type=\"text/css\" rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800\">\n</head>\n\n<body
+        class=\"error404 antialiased\">\n\n  <div id=\"fb-root\"></div>\n  <script>\n
+        \   window.fbAsyncInit = function() {\n      FB.init({\n        appId      :
+        '838253686201848',\n        xfbml      : true,\n        version    : 'v2.0'\n
+        \     });\n    };\n    (function(d, s, id){\n       var js, fjs = d.getElementsByTagName(s)[0];\n
+        \      if (d.getElementById(id)) {return;}\n       js = d.createElement(s);
+        js.id = id;\n       js.src = \"//connect.facebook.net/en_US/sdk.js\";\n       fjs.parentNode.insertBefore(js,
+        fjs);\n     }(document, 'script', 'facebook-jssdk'));\n  </script>\n\n  <!--
+        Header -->\n    <header class=\"header   \" >\n    \n    <nav class=\"header-nav\"
+        id=\"header-nav\">\n\n      <div class=\"row\">\n        <div class=\"small-12
+        medium-12 large-4 columns\">\n          <div class=\"row\">\n            <div
+        class=\"small-10 columns\">\n              <a class=\"header-nav-logo\" href=\"https://redbooth.com/\"
+        title=\"Redbooth\" rel=\"home\">\n                <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/logo-redbooth-dark.png\"
+        alt=\"Redbooth work smarter\">\n              </a>\n            </div>\n            <div
+        class=\"small-2 columns\">\n              <a class=\"header-nav-toggle hide-for-large-up\"
+        id=\"header-nav-toggle\" href=\"#\">\n                <span class=\"fa fa-bars\"></span>\n
+        \             </a>\n            </div>\n          </div>\n        </div>\n
+        \       <div class=\"small-12 medium-12 large-8 columns\">\n          <div
+        class=\"show-for-large-up\" id=\"header-nav-content\">\n\n            <ul
+        class=\"header-nav-menu\"><li class=\"divider\"></li><li id=\"menu-item-3540\"
+        class=\"menu-item menu-item-main-menu menu-item-features\"><a  href=\"https://redbooth.com/features\"
+        >Features</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2557\" class=\"menu-item
+        menu-item-main-menu menu-item-plans-pricing\"><a  href=\"https://redbooth.com/pricing\"
+        >Plans &#038; Pricing</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-3373\"
+        class=\"menu-item menu-item-main-menu menu-item-solutions has-dropdown\"><a
+        \ href=\"#\">Solutions</a>\n\t<ul class=\"dropdown\">\n\t<li id=\"menu-item-3376\"
+        class=\"menu-item menu-item-main-menu menu-item-it\"><a  href=\"http://go.redbooth.com/it-project-management-and-collaboration\"
+        >IT</a></li>\n\t<li id=\"menu-item-3374\" class=\"menu-item menu-item-main-menu
+        menu-item-education\"><a  href=\"http://go.redbooth.com/project-management-and-online-collaboration-for-universities\"
+        >Education</a></li>\n\t<li id=\"menu-item-3375\" class=\"menu-item menu-item-main-menu
+        menu-item-marketing\"><a  href=\"http://go.redbooth.com/online-collaboration-for-marketing-and-creative-agencies\"
+        >Marketing</a></li>\n</ul>\n</li>\n<li class=\"divider\"></li><li id=\"menu-item-2965\"
+        class=\"menu-item menu-item-main-menu menu-item-resources\"><a  href=\"https://redbooth.com/more-info/resources\"
+        >Resources</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2038\"
+        class=\"menu-item menu-item-main-menu menu-item-login\"><a  href=\"/login\">Login</a></li>\n<li
+        class=\"divider\"></li><li id=\"menu-item-2039\" class=\"menu-item menu-item-main-menu
+        menu-item-join\"><a  href=\"/signup\">Join</a></li>\n</ul>\n            \n
+        \           <ul class=\"header-nav-social hide-for-large-up\">\n              <li>\n
+        \               <a href=\"https://twitter.com/redboothhq\" target=\"_blank\">\n
+        \                 <span class=\"fa fa-twitter\"></span>\n                </a>\n
+        \             </li>\n              <li>\n                <a href=\"https://www.facebook.com/redboothhq\"
+        target=\"_blank\">\n                  <span class=\"fa fa-facebook\"></span>\n
+        \               </a>\n              </li>\n              <li>\n                <a
+        href=\"https://plus.google.com/104258925114075673219?rel=publishe\" target=\"_blank\">\n
+        \                 <span class=\"fa fa-google-plus\"></span>\n                </a>\n
+        \             </li>\n              <li>\n                <a href=\"http://www.linkedin.com/company/redbooth-inc-\"
+        target=\"_blank\">\n                  <span class=\"fa fa-linkedin\"></span>\n
+        \               </a>\n              </li>\n            </ul>\n\n          </div>\n
+        \       </div>\n      </div>\n\n    </nav>\n\n    \n  </header>\n\n\n  <!--
+        Start the main container -->\n  <div class=\"container\" role=\"document\">\n\n\n<article
+        id=\"error-page\">\n  <div class=\"row full-row\">\n    <div class=\"large-9
+        columns large-centered text-center\">\n      <div class=\"row full-row\">\n
+        \       <h1>Not found</h1>\n        <h3>Sorry, we couldn't find the page you're
+        looking for.</h3>\n        <p>\n          <a href=\"https://redbooth.com/\">Go
+        to homepage</a>\n        </p>\n      </div>\n    </div>\n  </div>\n</article>\n\n\n</div><!--
+        Container End -->\n\n<!-- <div class=\"full-width footer-widget\">\n  <div
+        class=\"row\">\n      </div>\n</div> -->\n\n<footer role=\"contentinfo\">\n
+        \ <div class=\"row\">\n    <div class=\"small-12 large-2 columns show-for-large-up\">\n
+        \     <a href=\"https://redbooth.com/\">\n        <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/rb-footer-logo.png\"
+        >\n      </a>\n    </div>\n    <div class=\"small-12 large-2 columns\">\n
+        \     <ul>\n        <li>Media</li>\n        <li><li class=\"divider\"></li><li
+        id=\"menu-item-2056\" class=\"menu-item menu-item-main-menu menu-item-press\"><a
+        \ href=\"https://redbooth.com/media/press\" >Press</a></li>\n<li class=\"divider\"></li><li
+        id=\"menu-item-2062\" class=\"menu-item menu-item-main-menu menu-item-redbooth-in-the-media\"><a
+        \ href=\"https://redbooth.com/media/teambox-in-the-media\" >Redbooth in the
+        media</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2061\" class=\"menu-item
+        menu-item-main-menu menu-item-what-customers-say\"><a  href=\"https://redbooth.com/media/what-customers-say\"
+        >What Customers Say</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2066\"
+        class=\"menu-item menu-item-main-menu menu-item-press-releases\"><a  href=\"https://redbooth.com/media/press-releases\"
+        >Press releases</a></li>\n</li>      </ul>\n    </div>\n    <div class=\"small-12
+        large-2 columns\">\n      <ul>\n        <li>Company</li>\n        <li><li
+        class=\"divider\"></li><li id=\"menu-item-2995\" class=\"menu-item menu-item-main-menu
+        menu-item-task-management\"><a  title=\"Redbooth Task Management Software\"
+        href=\"https://redbooth.com\" >Task Management</a></li>\n<li class=\"divider\"></li><li
+        id=\"menu-item-2069\" class=\"menu-item menu-item-main-menu menu-item-blog\"><a
+        \ title=\"Improve Online Collaboration\" href=\"https://redbooth.com/blog\"
+        >Blog</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2059\" class=\"menu-item
+        menu-item-main-menu menu-item-about-redbooth\"><a  title=\"About the Redbooth
+        Collaboration Platform\" href=\"https://redbooth.com/about\" >About Redbooth</a></li>\n<li
+        class=\"divider\"></li><li id=\"menu-item-2050\" class=\"menu-item menu-item-main-menu
+        menu-item-board\"><a  title=\"The Board, Redbooth Online Collaboration Platform\"
+        href=\"https://redbooth.com/board\" >Board</a></li>\n<li class=\"divider\"></li><li
+        id=\"menu-item-2049\" class=\"menu-item menu-item-main-menu menu-item-investors\"><a
+        \ title=\"Investors at Redbooth, the partner for productivity \" href=\"https://redbooth.com/company/investors\"
+        >Investors</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2051\"
+        class=\"menu-item menu-item-main-menu menu-item-offices\"><a  title=\"Offices
+        at Redbooth, the task management software\" href=\"https://redbooth.com/company/offices\"
+        >Offices</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2067\" class=\"menu-item
+        menu-item-main-menu menu-item-jobs\"><a  title=\"Jobs at Redbooth, the project
+        management tools for you company\" href=\"https://redbooth.com/jobs\" >Jobs</a></li>\n</li>
+        \     </ul>\n    </div>\n    <div class=\"small-12 large-2 columns\">\n      <ul>\n
+        \       <li>Platform</li>\n        <li><li class=\"divider\"></li><li id=\"menu-item-2996\"
+        class=\"menu-item menu-item-main-menu menu-item-collaboration-platform\"><a
+        \ title=\"Redbooth Collaboration Platform\" href=\"https://redbooth.com\"
+        >Collaboration Platform</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-3541\"
+        class=\"menu-item menu-item-main-menu menu-item-features\"><a  href=\"https://redbooth.com/features\"
+        >Features</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2558\" class=\"menu-item
+        menu-item-main-menu menu-item-pricing\"><a  href=\"https://redbooth.com/pricing\"
+        >Pricing</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2058\" class=\"menu-item
+        menu-item-main-menu menu-item-integrations\"><a  href=\"https://redbooth.com/integrations\"
+        >Integrations</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2140\"
+        class=\"menu-item menu-item-main-menu menu-item-webinars-tutorials\"><a  href=\"https://redbooth.com/webinar\"
+        >Webinars &#038; Tutorials</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2068\"
+        class=\"menu-item menu-item-main-menu menu-item-upcoming-webinars\"><a  href=\"https://redbooth.com/upcoming\"
+        >Upcoming webinars</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2043\"
+        class=\"menu-item menu-item-main-menu menu-item-on-premise\"><a  href=\"/on-premise\">On-Premise</a></li>\n</li>
+        \     </ul>\n    </div>\n    <div class=\"small-12 large-2 columns\">\n      <ul>\n
+        \       <li>More Info</li>\n        <li><li class=\"divider\"></li><li id=\"menu-item-2036\"
+        class=\"menu-item menu-item-main-menu menu-item-help\"><a  href=\"/knowledge-base/en/\">Help</a></li>\n<li
+        class=\"divider\"></li><li id=\"menu-item-2966\" class=\"menu-item menu-item-main-menu
+        menu-item-resources\"><a  href=\"https://redbooth.com/more-info/resources\"
+        >Resources</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2063\"
+        class=\"menu-item menu-item-main-menu menu-item-terms-and-fair-use\"><a  href=\"https://redbooth.com/more-info/terms-and-fair-use\"
+        >Terms and Fair Use</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2064\"
+        class=\"menu-item menu-item-main-menu menu-item-security-privacy\"><a  href=\"https://redbooth.com/more-info/security-privacy\"
+        >Security &#038; Privacy</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2065\"
+        class=\"menu-item menu-item-main-menu menu-item-cookies-policy\"><a  href=\"https://redbooth.com/more-info/cookies-policy\"
+        >Cookies Policy</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2037\"
+        class=\"menu-item menu-item-main-menu menu-item-services-status\"><a  href=\"http://status.redbooth.com/\"
+        >Services Status</a></li>\n<li class=\"divider\"></li><li id=\"menu-item-2559\"
+        class=\"menu-item menu-item-main-menu menu-item-contact-us\"><a  href=\"http://go.redbooth.com/contactsales\"
+        >Contact us</a></li>\n</li>      </ul>\n    </div>\n    <div id=\"last\" class=\"small-12
+        large-2 columns\">\n      <ul>\n        <li>Try it</li>\n        <li><a href=\"/login\"><button
+        class=\"button-grey\">LOGIN</button></a></li>\n        <li><a href=\"/signup\"><button
+        class=\"button-blue\">SIGN UP</button></a></li>\n        <li id=\"social-network\">\n
+        \         <div class=\"row full-row\">\n            <div class=\"large-12
+        colums\">\n              <a href=\"https://twitter.com/redboothhq\" class=\"share-icon
+        twitter \" title=\"Redbooth on Twitter\" target=\"_blank\">\n                <img
+        src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/twitter-icon.png\">\n
+        \             </a>\n              <a href=\"https://www.facebook.com/redboothhq\"
+        class=\"share-icon facebook \" title=\"Redbooth on Facebook\" target=\"_blank\">\n
+        \               <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/facebook-icon.png\">\n
+        \             </a>\n            </div>\n          </div>\n        </li>\n
+        \       <li>\n          <div class=\"row full-row\">\n            <div class=\"large-12
+        colums\">\n              <a href=\"https://plus.google.com/104258925114075673219?rel=publisher\"
+        class=\"share-icon google-plus \" title=\"Redbooth on Google+\" target=\"_blank\"
+        rel=\"publisher\">\n                <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/gplus-icon.png\">\n
+        \             </a>\n              <a href=\"http://www.linkedin.com/company/redbooth-inc-\"
+        class=\"share-icon linkedin \" title=\"Redbooth on Linkedin\" target=\"_blank\">\n
+        \               <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/linkedin-icon.png\">\n
+        \             </a>\n            </div>\n          </div>\n        </li>\n
+        \     </ul>\n    </div>\n  </div>\n</footer>\n\n<article id=\"teambox\">\n
+        \ <div class=\"row full-row\">\n    <div class=\"large-12 columns large-centered
+        text-center\">\n      <img src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/img/opersys-32.png\"
+        alt=\"Opersys Teambox\">\n      If you are looking for Opersys Teambox for
+        file sharing and file syncing visit <a href=\"http://www.teambox.co\" target=\"_blank\"
+        rel=\"nofollow\">www.teambox.co</a>\n    </div>\n  </div>\n</article>\n\n\n<!--
+        Start of Async HubSpot Analytics Code for WordPress v1.9.4 -->\n<script type=\"text/javascript\">\nvar
+        _hsq = _hsq || [];\n_hsq.push([\"setContentType\", \"standard-page\"]);\n(function(d,s,i,r)
+        {\n  if (d.getElementById(i)){return;}\n  var n = d.createElement(s),e = document.getElementsByTagName(s)[0];\n
+        \ n.id=i;n.src = '//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/370166.js';\n
+        \ e.parentNode.insertBefore(n, e);\n})(document, \"script\", \"hs-analytics\",
+        300000);\n</script>\n<!-- End of Async HubSpot Analytics Code -->\n<script
+        type=\"text/javascript\">\n  (function() {\n    window._pa = window._pa ||
+        {};\n    // _pa.orderId = \"myUser@email.com\"; // OPTIONAL: include your
+        user's email address or order ID\n    // _pa.revenue = \"19.99\"; // OPTIONAL:
+        include dynamic purchase value for the conversion\n    // _pa.onLoadEvent
+        = \"sign_up\"; // OPTIONAL: name of segment/conversion to be fired on script
+        load\n    var pa = document.createElement('script'); pa.type = 'text/javascript';
+        pa.async = true;\n    pa.src = ('https:' == document.location.protocol ? 'https:'
+        : 'http:') + \"//tag.perfectaudience.com/serve/53c5d9cc2d33347a2000001c.js\";\n
+        \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa,
+        s);\n  })();\n</script><script type='text/javascript' src='https://redbooth.com/wp-includes/js/comment-reply.min.js'></script>\n<script
+        type='text/javascript' src='https://redbooth.com/wp-content//themes/reverie-master/js/foundation.min.js'></script>\n\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/third-party/bootstrap/bootstrap.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/header.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/chat.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/quotyfier.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/initializers.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/resources.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/responsive-tables.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/real-time.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/main.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://redbooth.com/wp-content//themes/redbooth-com-wp/js/wow.min.js\"></script>\n<script
+        type=\"text/javascript\">\n  (function($) {\n    $(document).foundation();\n
+        \ })(jQuery);\n</script>\n\n<script>\n  var wow = new WOW(\n    {\n      mobile:
+        false // trigger animations on mobile devices (true is default)\n    }\n  );\n
+        \ wow.init();\n</script>\n\n<!-- Olark chat -->\n<script data-cfasync=\"false\"
+        type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol==\"https:\"?\"https:\":\"http:\",z=c.name,r=\"load\";var
+        nt=function(){\nf[z]=function(){\n(a.s=a.s||[]).push(arguments)};var a=f[z]._={\n},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){\nf[z](\"call\",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={\n0:+new
+        Date};a.P=function(u){\na.p[u]=new Date-a.p[0]};function s(){\na.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent(\"on\"+r,s);var
+        ld=function(){function p(hd){\nhd=\"head\";return[\"<\",hd,\"></\",hd,\"><\",i,'
+        onl' + 'oad=\"var d=',g,\";d.getElementsByTagName('head')[0].\",j,\"(d.\",h,\"('script')).\",k,\"='\",l,\"//\",a.l,\"'\",'\"',\"></\",i,\">\"].join(\"\")}var
+        i=\"body\",m=d[i];if(!m){\nreturn setTimeout(ld,100)}a.P(1);var j=\"appendChild\",h=\"createElement\",k=\"src\",n=d[h](\"div\"),v=n[j](d[h](z)),b=d[h](\"iframe\"),g=\"document\",e=\"domain\",o;n.style.display=\"none\";m.insertBefore(n,m.firstChild).id=z;b.frameBorder=\"0\";b.id=z+\"-loader\";if(/MSIE[
+        ]+6/.test(navigator.userAgent)){\nb.src=\"javascript:false\"}b.allowTransparency=\"true\";v[j](b);try{\nb.contentWindow[g].open()}catch(w){\nc[e]=d[e];o=\"javascript:var
+        d=\"+g+\".open();d.domain='\"+d.domain+\"';\";b[k]=o+\"void(0);\"}try{\nvar
+        t=b.contentWindow[g];t.write(p());t.close()}catch(x){\nb[k]=o+'d.write(\"'+p().replace(/\"/g,String.fromCharCode(92)+'\"')+'\");d.close();'}a.P(2)};ld()};nt()})({\nloader:
+        \"static.olark.com/jsclient/loader0.js\",name:\"olark\",methods:[\"configure\",\"extend\",\"declare\",\"identify\"]});\n/*
+        custom configuration goes here (www.olark.com/documentation) */\nolark.identify('3635-614-10-3155');/*]]>*/</script><noscript><a
+        href=\"https://www.olark.com/site/3635-614-10-3155/contact\" title=\"Contact
+        us\" target=\"_blank\">Questions? Feedback?</a> powered by <a href=\"http://www.olark.com?welcome\"
+        title=\"Olark live chat software\">Olark live chat software</a></noscript>\n<!--
+        /Olark chat -->\n\n<!-- Google Code for Remarketing Tag -->\n<!-- \n  Remarketing
+        tags may not be associated with personally identifiable information\n  or
+        placed on pages related to sensitive categories. See more information and
+        instructions\n  on how to setup the tag on: http://google.com/ads/remarketingsetup\n-->\n<script
+        type=\"text/javascript\">\n  /* <![CDATA[ */\n  var google_conversion_id =
+        968795165;\n  var google_custom_params = window.google_tag_params;\n  var
+        google_remarketing_only = true;\n  /* ]]> */\n</script>\n<script type=\"text/javascript\"
+        src=\"//www.googleadservices.com/pagead/conversion.js\"></script>\n<noscript>\n
+        \ <div style=\"display:inline;\">\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\"
+        alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/968795165/?value=0&amp;guid=ON&amp;script=0\"/>\n
+        \ </div>\n</noscript>\n<!-- /Google Code for Remarketing Tag -->\n\n<!-- Bizo
+        -->\n<script type=\"text/javascript\">\n  _bizo_data_partner_id = \"2248\";\n</script>\n<script
+        type=\"text/javascript\">\n  (function() {\n    var s = document.getElementsByTagName(\"script\")[0];\n
+        \   var b = document.createElement(\"script\");\n    b.type = \"text/javascript\";\n
+        \   b.async = true;\n    b.src = (window.location.protocol === \"https:\"
+        ? \"https://sjs\" : \"http://js\") + \".bizographics.com/insight.min.js\";\n
+        \   s.parentNode.insertBefore(b, s);\n  })();\n</script>\n<noscript>\n  <img
+        height=\"1\" width=\"1\" alt=\"\" style=\"display:none;\" src=\"//www.bizographics.com/collect/?pid=2248&fmt=gif\"
+        />\n</noscript>\n<!-- /Bizo -->\n  \n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Wed, 15 Oct 2014 15:41:06 GMT
+recorded_with: VCR 2.9.3
